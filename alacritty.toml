@@ -1,0 +1,58 @@
+[colors.primary]
+background = "#f4f1e8"      # Creamy milk tea background
+foreground = "#5c6a53"      # Deep matcha green text
+dim_foreground = "#7a8670"  # Slightly lighter matcha
+bright_foreground = "#4a5642" # Darker matcha
+
+[colors.normal]
+black = "#e8e2d5"           # Light cream
+red = "#c65f5f"             # Soft red bean
+green = "#7a9461"           # Fresh matcha
+yellow = "#d4a574"          # Golden milk tea
+blue = "#7a92a5"            # Soft blue-gray
+magenta = "#a17a8f"         # Taro purple
+cyan = "#6fa695"            # Jade green
+white = "#8b7355"           # Creamy brown for code blocks
+
+[colors.bright]
+black = "#d6ccb9"           # Medium cream
+red = "#d67b7b"             # Bright red bean
+green = "#8fac70"           # Bright matcha
+yellow = "#e6bb8a"          # Bright golden
+blue = "#92aec4"            # Bright blue-gray
+magenta = "#b892a5"         # Bright taro
+cyan = "#82c2ae"            # Bright jade
+white = "#6b5642"           # Darker creamy brown for bright code
+
+[colors.dim]
+black = "#f0ebe0"           # Very light cream
+red = "#b85252"             # Dim red bean
+green = "#6b8054"           # Dim matcha
+yellow = "#c29360"          # Dim golden
+blue = "#6b8295"            # Dim blue-gray
+magenta = "#8f6b7e"         # Dim taro
+cyan = "#5f9484"            # Dim jade
+white = "#9d8670"           # Muted creamy brown for dim code
+
+[colors.cursor]
+text = "#f4f1e8"            # Background color for cursor text
+cursor = "#7a9461"          # Matcha green cursor
+
+[colors.selection]
+text = "CellForeground"
+background = "#e0d9c8"      # Slightly darker cream for selection
+
+[colors.search]
+[colors.search.matches]
+foreground = "#f4f1e8"
+background = "#7a9461"      # Matcha green for search matches
+[colors.search.focused_match]
+foreground = "#f4f1e8"
+background = "#8fac70"      # Brighter matcha for focused match
+
+[[colors.indexed_colors]]
+index = 16
+color = "#d4a574"           # Golden milk tea
+[[colors.indexed_colors]]
+index = 17
+color = "#a17a8f"           # Taro purple
