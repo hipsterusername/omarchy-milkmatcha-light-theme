@@ -1,6 +1,8 @@
 # MilkMatcha Theme
 
 A warm, creamy light theme inspired by milk tea with matcha green accents.
+<img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/24d27cf5-ccf1-4d50-a615-c8e92f313645" />
+
 
 ## Color Palette
 
