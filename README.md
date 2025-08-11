@@ -39,6 +39,3 @@ This theme uses an **analogous color scheme** with warm cream backgrounds and co
 
 ## Installation
 Copy the `milkmatcha` folder to your themes directory and apply using your theme switcher.
-
-## Wallpaper
-Includes a green tea themed background image at `backgrounds/1-milkmatcha.jpg`.
