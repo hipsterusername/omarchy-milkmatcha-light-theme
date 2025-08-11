@@ -38,4 +38,8 @@ This theme uses an **analogous color scheme** with warm cream backgrounds and co
 - Warm backgrounds create cozy atmosphere
 
 ## Installation
-Copy the `milkmatcha` folder to your themes directory and apply using your theme switcher.
+Super+Alt+Space > Install > Style > Theme 
+
+OR
+
+Clone repo into your .config/omarchy/themes folder
