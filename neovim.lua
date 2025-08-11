@@ -1,6 +1,5 @@
 -- Omarchy Milkmatcha Light Theme for Neovim
 -- A soft, warm light theme with matcha green accents
--- Place this file in ~/.config/nvim/colors/omarchy-milkmatcha-light.lua
 
 local M = {}
 
@@ -220,16 +219,27 @@ function M.load()
   vim.g.terminal_color_15 = c.fg0
 end
 
--- Make the module callable
-setmetatable(M, {
-  __call = function(_, ...)
-    M.load(...)
-  end,
-})
+-- Export the theme module
+M.colors = colors
 
--- Auto-load when used as a colorscheme
-if vim.g.colors_name == 'omarchy-milkmatcha-light' then
-  M.load()
-end
-
-return M
+-- LazyVim plugin specification
+return {
+  {
+    "omarchy-milkmatcha-light",
+    name = "omarchy-milkmatcha-light",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      vim.api.nvim_create_user_command("OmarchyMilkmatchaLight", function()
+        M.load()
+      end, {})
+      M.load()
+    end,
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "omarchy-milkmatcha-light",
+    },
+  },
+}
